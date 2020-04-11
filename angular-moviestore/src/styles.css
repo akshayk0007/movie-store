@@ -1,0 +1,9 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: 'Inria_Sans';
+    src: url(/assets/fonts/Inria_Sans/InriaSans-Regular.ttf) format("truetype");
+}
+
+h1 {
+    font-family: 'Inria_Sans';
+}

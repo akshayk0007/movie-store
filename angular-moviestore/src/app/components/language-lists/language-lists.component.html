@@ -1,0 +1,18 @@
+<table border="1">
+    <thead>
+        <tr>
+            <th>Image</th>
+            <th>Language Code</th>
+            <th>Language Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let language of languages">
+            <td>
+                <img src="http://placehold.it/250x300" height="50" />
+            </td>
+            <td>{{language.languageCode}}</td>
+            <td>{{language.languageName}}</td>
+        </tr>
+    </tbody>
+</table>
